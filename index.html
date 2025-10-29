@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku - Discord-Style Chatting Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Buku</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="btn-primary">Join Server</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Connect, Chat, Collaborate</h2>
+            <p>Join servers, create channels, and chat in real-time with Buku—your Discord-inspired platform.</p>
+            <div class="hero-actions">
+                <button class="btn-primary large">Create Server</button>
+                <button class="btn-secondary">Explore Servers</button>
+            </div>
+            <img src="https://via.placeholder.com/600x300?text=Chat+Interface+Mockup" alt="Chat Interface" class="hero-image">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h3>Discord-Style Features</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <img src="https://via.placeholder.com/100?text=Server" alt="Servers">
+                    <h4>Servers & Communities</h4>
+                    <p>Create or join servers for groups, friends, or teams.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://via.placeholder.com/100?text=Channel" alt="Channels">
+                    <h4>Text & Voice Channels</h4>
+                    <p>Organize chats with text channels and seamless voice calls.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://via.placeholder.com/100?text=Emoji" alt="Emojis">
+                    <h4>Emojis & Reactions</h4>
+                    <p>Express yourself with custom emojis and message reactions.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://via.placeholder.com/100?text=Roles" alt="Roles">
+                    <h4>Roles & Permissions</h4>
+                    <p>Manage user roles for moderation and access control.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mock Discord-Style Interface -->
+    <section class="chat-demo">
+        <div class="container">
+            <h3>Try the Interface</h3>
+            <div class="discord-layout">
+                <div class="sidebar">
+                    <div class="server-list">
+                        <div class="server">S1</div>
+                        <div class="server active">Buku</div>
+                        <div class="server">S3</div>
+                    </div>
+                    <div class="channel-list">
+                        <h4>Channels</h4>
+                        <ul>
+                            <li class="channel active"># general</li>
+                            <li class="channel"># voice-chat</li>
+                            <li class="channel"># random</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="chat-area">
+                    <div class="messages">
+                        <div class="message">
+                            <strong>User1:</strong> Hey everyone! Welcome to Buku. 😊
+                        </div>
+                        <div class="message">
+                            <strong>User2:</strong> This looks like Discord! 👍
+                        </div>
+                        <div class="message">
+                            <strong>You:</strong> Yeah, let's chat! (Type below)
+                        </div>
+                    </div>
+                    <div class="message-input">
+                        <input type="text" id="msg-input" placeholder="Type a message...">
+                        <button id="send-btn">Send</button>
+                    </div>
+                </div>
+                <div class="user-list">
+                    <h4>Online Users</h4>
+                    <ul>
+                        <li>User1 (Admin)</li>
+                        <li>User2</li>
+                        <li>You</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h3>Pricing for Communities</h3>
+            <div class="pricing-table">
+                <div class="plan">
+                    <h4>Free</h4>
+                    <p class="price">$0</p>
+                    <ul>
+                        <li>Unlimited users</li>
+                        <li>Basic channels</li>
+                        <li>Text chat only</li>
+                    </ul>
+                    <button class="btn-primary">Get Started</button>
+                </div>
+                <div class="plan popular">
+                    <span class="badge">Most Popular</span>
+                    <h4>Pro</h4>
+                    <p class="price">$4.99/month</p>
+                    <ul>
+                        <li>Voice channels</li>
+                        <li>Custom emojis</li>
+                        <li>Advanced moderation</li>
+                    </ul>
+                    <button class="btn-primary">Upgrade</button>
+                </div>
+                <div class="plan">
+                    <h4>Enterprise</h4>
+                    <p class="price">Custom</p>
+                    <ul>
+                        <li>All features</li>
+                        <li>API access</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <button class="btn-secondary">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Buku. All rights reserved. | <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
